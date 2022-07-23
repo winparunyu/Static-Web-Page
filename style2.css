@@ -1,0 +1,32 @@
+.wallpaper{
+    position: relative;
+    background-image: url("image/Herbs.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    filter: blur(2px);
+}
+.content{
+    
+     position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+     
+}
+.text-wrapper{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* .text-gallery{
+    background-image: url(Koke.jpg);
+} */
